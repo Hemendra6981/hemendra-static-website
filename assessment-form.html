@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SchoolAI OS | Dynamic Assessment Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="schoolai-body">
+
+  <!-- HEADER -->
+  <header class="site-header">
+
+    <div class="site-nav-container">
+
+      <a href="index.html" class="brand-mark">
+        <span class="brand-dot"></span>
+        <span>Hemendra Sharma</span>
+      </a>
+
+      <button class="mobile-menu-toggle" id="mobileMenuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+
+        <a href="index.html">Home</a>
+
+        <a href="schoolai-os.html">
+          SchoolAI OS
+        </a>
+
+        <a href="assessment.html">
+          Assessment
+        </a>
+
+        <a href="sample-report.html">
+          Sample Report
+        </a>
+
+        <a href="assessment-register.html"
+           class="nav-cta">
+          Pilot Audit
+        </a>
+
+        <a href="portal-login.html"
+           class="nav-login">
+          Login
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <!-- MAIN -->
+  <main class="schoolai-page">
+
+    <!-- HERO -->
+    <section class="schoolai-hero compact">
+
+      <div class="schoolai-container">
+
+        <div class="schoolai-pill">
+          SchoolAI Assessment Portal
+        </div>
+
+        <h1>
+          Institutional AI Readiness Assessment
+        </h1>
+
+        <p>
+          Role-based assessment interface for principals,
+          teachers,
+          IT/admin teams,
+          students,
+          and auditors participating in the
+          SchoolAI Government Alignment &
+          AI Readiness Audit.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- FORM LAYOUT -->
+    <section class="schoolai-container form-layout">
+
+      <!-- SIDEBAR -->
+      <aside class="form-sidebar">
+
+        <div class="glass-card">
+
+          <p class="section-kicker">
+            Assessment Role
+          </p>
+
+          <h2>
+            Teacher Assessment
+          </h2>
+
+          <p>
+            Teacher AI readiness,
+            workload analysis,
+            bilingual implementation,
+            classroom confidence,
+            and training readiness.
+          </p>
+
+        </div>
+
+        <div class="glass-card">
+
+          <p class="section-kicker">
+            Progress
+          </p>
+
+          <div class="progress-shell">
+            <div class="progress-bar"></div>
+          </div>
+
+          <p class="progress-text">
+            Question 1 of 8
+          </p>
+
+        </div>
+
+        <div class="glass-card">
+
+          <p class="section-kicker">
+            Privacy Note
+          </p>
+
+          <p>
+            Individual responses are used
+            in aggregate for institutional readiness analysis
+            and are not treated as personal evaluation.
+          </p>
+
+        </div>
+
+      </aside>
+
+      <!-- FORM -->
+      <section class="form-main glass-card">
+
+        <div class="form-topbar">
+
+          <div>
+
+            <p class="section-kicker">
+              Teacher AI Readiness
+            </p>
+
+            <h2>
+              How comfortable are you using
+              digital tools for teaching and school work?
+            </h2>
+
+          </div>
+
+          <span class="status-badge">
+            Scale 0–10
+          </span>
+
+        </div>
+
+        <p class="question-help">
+
+          0 means not comfortable.
+          10 means highly comfortable and independent.
+
+        </p>
+
+        <!-- SCALE -->
+        <div class="question-input-area">
+
+          <div class="scale-grid">
+
+            <button class="scale-btn">0</button>
+            <button class="scale-btn">1</button>
+            <button class="scale-btn">2</button>
+            <button class="scale-btn">3</button>
+            <button class="scale-btn">4</button>
+            <button class="scale-btn">5</button>
+            <button class="scale-btn">6</button>
+            <button class="scale-btn">7</button>
+            <button class="scale-btn">8</button>
+            <button class="scale-btn">9</button>
+            <button class="scale-btn">10</button>
+
+          </div>
+
+        </div>
+
+        <!-- NAVIGATION -->
+        <div class="form-navigation">
+
+          <button class="schoolai-btn secondary">
+            Previous
+          </button>
+
+          <button class="schoolai-btn secondary">
+            Save Draft
+          </button>
+
+          <button class="schoolai-btn primary">
+            Next
+          </button>
+
+        </div>
+
+        <div class="submission-note">
+
+          Draft responses are currently stored locally.
+          Cloudflare D1 integration will be connected later.
+
+        </div>
+
+      </section>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
