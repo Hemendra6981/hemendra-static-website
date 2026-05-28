@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SchoolAI OS | Auditor Console</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="schoolai-body">
+
+  <!-- HEADER -->
+  <header class="site-header">
+
+    <div class="site-nav-container">
+
+      <a href="index.html" class="brand-mark">
+        <span class="brand-dot"></span>
+        <span>Hemendra Sharma</span>
+      </a>
+
+      <button class="mobile-menu-toggle" id="mobileMenuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+
+        <a href="index.html">Home</a>
+
+        <a href="schoolai-os.html">
+          SchoolAI OS
+        </a>
+
+        <a href="assessment.html">
+          Assessment
+        </a>
+
+        <a href="sample-report.html">
+          Sample Report
+        </a>
+
+        <a href="assessment-register.html"
+           class="nav-cta">
+          Pilot Audit
+        </a>
+
+        <a href="portal-login.html"
+           class="nav-login">
+          Login
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <!-- MAIN -->
+  <main class="schoolai-page">
+
+    <!-- HERO -->
+    <section class="schoolai-hero compact">
+
+      <div class="schoolai-container">
+
+        <div class="schoolai-pill">
+          SchoolAI Audit Operations Console
+        </div>
+
+        <h1>
+          Auditor Console
+        </h1>
+
+        <p>
+          Review institutional assessment status,
+          validate evidence,
+          monitor scoring readiness,
+          and prepare SchoolAI readiness reports.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- SUMMARY -->
+    <section class="schoolai-container auditor-summary-grid">
+
+      <article class="glass-card metric-card">
+
+        <p class="section-kicker">
+          Schools
+        </p>
+
+        <h2>
+          12
+        </h2>
+
+        <p>
+          Active assessment cycles
+        </p>
+
+      </article>
+
+      <article class="glass-card metric-card">
+
+        <p class="section-kicker">
+          Pending Review
+        </p>
+
+        <h2>
+          05
+        </h2>
+
+        <p>
+          Evidence validation required
+        </p>
+
+      </article>
+
+      <article class="glass-card metric-card">
+
+        <p class="section-kicker">
+          Reports
+        </p>
+
+        <h2>
+          03
+        </h2>
+
+        <p>
+          Draft reports ready
+        </p>
+
+      </article>
+
+      <article class="glass-card metric-card">
+
+        <p class="section-kicker">
+          Pilot Ready
+        </p>
+
+        <h2>
+          04
+        </h2>
+
+        <p>
+          Schools ready for enablement
+        </p>
+
+      </article>
+
+    </section>
+
+    <!-- TABLE -->
+    <section class="schoolai-container auditor-layout">
+
+      <!-- LEFT -->
+      <section class="glass-card auditor-table-card">
+
+        <p class="section-kicker">
+          Assigned Schools
+        </p>
+
+        <h2>
+          Audit Review Queue
+        </h2>
+
+        <div class="table-wrap">
+
+          <table class="auditor-table">
+
+            <thead>
+
+              <tr>
+
+                <th>School</th>
+                <th>City</th>
+                <th>Forms</th>
+                <th>Evidence</th>
+                <th>Score</th>
+                <th>Status</th>
+
+              </tr>
+
+            </thead>
+
+            <tbody>
+
+              <tr>
+
+                <td>Rajasthan Future Academy</td>
+                <td>Kota</td>
+                <td>5/5</td>
+                <td>Verified</td>
+                <td>72/100</td>
+                <td>
+                  <span class="status-badge">
+                    Review
+                  </span>
+                </td>
+
+              </tr>
+
+              <tr>
+
+                <td>Saraswati Trust School</td>
+                <td>Ajmer</td>
+                <td>2/5</td>
+                <td>Missing</td>
+                <td>Not Run</td>
+                <td>
+                  <span class="status-badge">
+                    Pending
+                  </span>
+                </td>
+
+              </tr>
+
+              <tr>
+
+                <td>Jaipur International School</td>
+                <td>Jaipur</td>
+                <td>5/5</td>
+                <td>Verified</td>
+                <td>84/100</td>
+                <td>
+                  <span class="status-badge">
+                    Ready
+                  </span>
+                </td>
+
+              </tr>
+
+            </tbody>
+
+          </table>
+
+        </div>
+
+      </section>
+
+      <!-- RIGHT -->
+      <aside class="auditor-side-panel">
+
+        <div class="glass-card">
+
+          <p class="section-kicker">
+            Selected School
+          </p>
+
+          <h2>
+            Rajasthan Future Academy
+          </h2>
+
+          <p>
+            Kota • Assessment Cycle AUD-2026-KOT-002
+          </p>
+
+          <div class="selected-score-ring">
+
+            <span>
+              72
+            </span>
+
+          </div>
+
+          <div class="readiness-label">
+            Transformation Ready
+          </div>
+
+        </div>
+
+        <div class="glass-card">
+
+          <p class="section-kicker">
+            Validation Actions
+          </p>
+
+          <div class="action-stack">
+
+            <button class="schoolai-btn secondary full">
+              Review Responses
+            </button>
+
+            <button class="schoolai-btn secondary full">
+              Validate Evidence
+            </button>
+
+            <button class="schoolai-btn secondary full">
+              Run Scoring
+            </button>
+
+            <button class="schoolai-btn primary full">
+              Generate Draft Report
+            </button>
+
+          </div>
+
+        </div>
+
+      </aside>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
